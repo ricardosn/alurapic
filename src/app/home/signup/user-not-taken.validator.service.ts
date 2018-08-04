@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 
 import { SignUpService } from './signup.service';
 
-@Injectable({providedIn: 'root'})
+@Injectable()
 export class UserNotTakenValidatorService {
     constructor(private signUpService: SignUpService) {}
 
