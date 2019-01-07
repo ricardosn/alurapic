@@ -36,6 +36,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
+    /* Linkar a const routes */
     imports: [ RouterModule.forRoot(routes) ],
     exports: [ RouterModule ]
 })
